@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <ImageView
+        android:id="@+id/imThumbnail"
+        android:layout_width="@dimen/largeur_thumbnail"
+        android:layout_height="@dimen/hauteur_thumbnail"
+        android:background="@color/primaryDark"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imPrivee"
+        android:layout_width="@dimen/taille_icone_thumbnail"
+        android:layout_height="@dimen/taille_icone_thumbnail"
+        android:layout_marginEnd="@dimen/marge_icones_thumbnail"
+        android:layout_marginBottom="@dimen/marge_icones_thumbnail"
+        android:background="@color/fond_icones_thumbnail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/ivType"
+        android:layout_width="@dimen/taille_icone_thumbnail"
+        android:layout_height="@dimen/taille_icone_thumbnail"
+        android:layout_marginTop="@dimen/marge_icones_thumbnail"
+        android:layout_marginEnd="@dimen/marge_icones_thumbnail"
+        android:background="@color/fond_icones_thumbnail"
+        android:elevation="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imThumbnail"
+        app:srcCompat="@drawable/image" />
+
+    <TextView
+        android:id="@+id/tvLongueurVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marge_icones_thumbnail"
+        android:background="@color/fond_icones_thumbnail"
+        android:text="0:00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivType"
+        app:layout_constraintEnd_toStartOf="@+id/ivType"
+        app:layout_constraintTop_toTopOf="@+id/ivType" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mes médias</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="menu_rendre_publique">Rendre publique</string>
+    <string name="menu_rendre_prive">Rendre privé</string>
+    <string name="ui_titre_password_incorrect">Mot de passe incorrect</string>
+    <string name="ui_password_incorrect">Vous devez saisir le mot de passe correct pour faire cette opération</string>
+    <string name="ui_passwd_pour_nouveau">Veuillez saisir l\'ancien mot de passe</string>
+    <string name="ui_passwords_differents_titre">Erreur</string>
+    <string name="ui_passwords_differents">Les mots de passe ne correpondent pas</string>
+    <string name="ui_afficher_prives">Entrez le mot de passe pour accéder aux médias privés</string>
+
+    <string name="info_liste_medias">%4$s: %1$d medias, %2$d images, %3$d vidéos</string>
+    <string name="option_vue_privees">Privés</string>
+    <string name="option_vue_publiques">Publiques</string>
+    <string name="option_vue_toutes">Publiques et privés</string>
+    <string name="ui_a_propos_icones">Source des icônes https://materialdesignicons.com/</string>
+    <string name="ui_a_propos_code">Quelques morceaux de code: https://stackoverflow.com/</string>
+    <string name="ui_password_trop_court">Le mot de passe doit comporter au moins %1$d caractères</string>
+    <string name="media_rendu_prive">Le média a été rendu privé</string>
+    <string name="media_rendu_prive_erreur">Impossible de rendre ce média privé</string>
+    <string name="media_rendu_publique">Média rendu publique</string>
+    <string name="media_rendu_publique_erreur">Impossible de rendre ce média publique</string>
+    <string name="supprimer_titre">Supprimer</string>
+    <string name="supprimer">Voulez-vous supprimer %1$s?</string>
+    <string name="warning_prives">Vos médias privés sont stockés dans l\'espace privés de cette application.\n\nAucune autre application ne peut y accéder.\n\nPensez à les remettre dans l\'espace public AVANT de désinstaller cette application, sinon ils seront définitivement perdus!</string>
+    <string name="warning">Avertissement!</string>
+    <string name="compris_ne_plus_afficher">Compris, ne plus afficher ce message</string>
+    <string name="ui_accorder_permissions">Pour fonctionner, cette application a besoin que vous accordiez certaines permissions.</string>
+    <string name="btn_accorder_permissions">Accorder les permissions</string>
+    <string name="ui_choisir_mot_de_passe">Choisir un mot de passe pour protéger vos médias privés</string>
+    <string name="btn_choisir_mot_de_passe">Choisir mot de passe</string>
+    <string name="ui_lancer_appli_conf_terminee">Vous pourrez lancer l\'application quand la configuration sera terminée</string>
+    <string name="btn_launch_application">Lancer l\'application</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="confirme_mot_de_passe">Confirmez le mot de passe</string>
+    <string name="voir_publique">Publiques</string>
+    <string name="voir_prive">Privés</string>
+    <string name="voir_images">Images</string>
+    <string name="voir_videos">Vidéos</string>
+    <string name="infosMedia"     >Catégorie: %1$s\nChemin: %2$s\nTaille: %3$sx%4$s\nModification: %5$s</string>
+    <string name="infosMediaVideo">Catégorie: %1$s\nChemin: %2$s\nTaille: %3$sx%4$s\nModification: %5$s\nLongueur: %6$s</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="largeur_thumbnail">150dp</dimen>
+    <dimen name="hauteur_thumbnail">150dp</dimen>
+    <dimen name="taille_icone_thumbnail">24dp</dimen>
+    <dimen name="taille_boutons_gallerie">48dp</dimen>
+    <dimen name="marge_icones_thumbnail">6dp</dimen>
+</resources>

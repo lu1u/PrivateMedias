@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trier les médias:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/primary" />
+
+    <RadioGroup
+        android:id="@+id/rgOptionsTri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbTriNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emplacement" />
+
+        <RadioButton
+            android:id="@+id/rbTriDateCreation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date de création" />
+
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.GallerieFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_margin="8dp"
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.33"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/swVoirPublique"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableStart="@drawable/voir_public"
+                android:gravity="right|center_vertical"
+                android:minHeight="48dp"
+                android:text="@string/voir_publique" />
+
+            <Switch
+                android:id="@+id/swVoirPrive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:drawableStart="@drawable/voir_prive"
+                android:gravity="right|center_vertical"
+                android:minHeight="48dp"
+                android:text="@string/voir_prive" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/swVoirImages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:drawableStart="@drawable/voir_image"
+                android:minHeight="48dp"
+                android:text="@string/voir_images" />
+
+            <Switch
+                android:id="@+id/swVoirVideos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/voir_video"
+                android:minHeight="48dp"
+                android:text="@string/voir_videos" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ibSort"
+                android:layout_width="@dimen/taille_boutons_gallerie"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:background="#0000"
+                android:minHeight="48dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sort" />
+
+            <ImageButton
+                android:id="@+id/ibMenu"
+                android:layout_width="@dimen/taille_boutons_gallerie"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:background="#0000"
+                android:minHeight="48dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/dots_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListeMedias"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fadeScrollbars="true"
+        android:scrollbarSize="64dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarThumbHorizontal="@color/primaryDark"
+
+
+        app:fastScrollEnabled="true"
+        app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
+        app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvInfosListeMedias"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/fond_infos_gallerie"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/primaryDark"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

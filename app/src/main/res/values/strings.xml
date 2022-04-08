@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My medias</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_rendre_publique">Make public</string>
+    <string name="menu_rendre_prive">Make private</string>
+    <string name="ui_titre_password_incorrect">Incorrect password</string>
+    <string name="ui_password_incorrect">Please enter the correct password for this operation</string>
+    <string name="ui_passwd_pour_nouveau">Please enter old password</string>
+    <string name="ui_passwords_differents_titre">Error</string>
+    <string name="ui_passwords_differents">Passwords do not match</string>
+    <string name="ui_afficher_prives">Please enter password to enter private medias</string>
+
+    <string name="info_liste_medias">%4$s: %1$d medias, %2$d images, %3$d videos</string>
+    <string name="option_vue_privees">Private</string>
+    <string name="option_vue_publiques">Public</string>
+    <string name="option_vue_toutes">Public and private</string>
+    <string name="ui_a_propos_icones">Icons from https://materialdesignicons.com/</string>
+    <string name="ui_a_propos_code">Some code from: https://stackoverflow.com/</string>
+    <string name="ui_password_trop_court">Password must be at least %1$d character long</string>
+    <string name="media_rendu_prive">Media has been made private</string>
+    <string name="media_rendu_prive_erreur">Cannot make this media private</string>
+    <string name="media_rendu_publique">Media has been made public</string>
+    <string name="media_rendu_publique_erreur">Cannot make this media public</string>
+    <string name="supprimer_titre">Delete</string>
+    <string name="supprimer">Delete %1$s?</string>
+    <string name="warning_prives">Your private medias will be stored in the private storage of this application.\n\nNo other application can access them.\n\nDon\'t forget to move them back to the public storage BEFORE uninstalling this appication, or else they will be lost forever.</string>
+    <string name="warning">Warning!</string>
+    <string name="compris_ne_plus_afficher">Understood, do not display again</string>
+    <string name="ui_accorder_permissions">This application needs Android permissions</string>
+    <string name="btn_accorder_permissions">Grant permissions</string>
+    <string name="ui_choisir_mot_de_passe">Enter a password to protect your private medias</string>
+    <string name="btn_choisir_mot_de_passe">Enter password</string>
+    <string name="ui_lancer_appli_conf_terminee">You can launch the application when this configuration is finished</string>
+    <string name="btn_launch_application">Launch application</string>
+    <string name="mot_de_passe">Password</string>
+    <string name="confirme_mot_de_passe">Confirm password</string>
+    <string name="voir_publique">Public</string>
+    <string name="voir_prive">Private</string>
+    <string name="voir_images">Images</string>
+    <string name="voir_videos">Videos</string>
+    <string name="infosMedia"     >Category: %1$s\nPath: %2$s\nSize: %3$sx%4$s\nModification: %5$s</string>
+    <string name="infosMediaVideo">Category: %1$s\nPath: %2$s\nSize: %3$sx%4$s\nModification: %5$s\nLength: %6$s</string>
+</resources>

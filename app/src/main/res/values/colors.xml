@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#3F51B5</color>
+    <color name="accentDark">#303F9F</color>
+
+    <color name="primary">#03A9F4</color>
+    <color name="primaryDark">#0288D1</color>
+    <color name="primaryLight">#4FC3F7</color>
+    <color name="couleurOptionSelectionnee">@color/primary</color>
+    <color name="couleurOptionNonSelectionnee">#4403A9F4</color>
+    <color name="fond_icones_thumbnail">#4444</color>
+    <color name="fond_boutons_gallerie">@android:color/white</color>
+    <color name="boutons_gallerie">@color/accent</color>
+    <color name="fond_infos_gallerie">#efff</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

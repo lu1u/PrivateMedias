@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/eye_check_outline.xml" value="0.1" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/ic_launcher.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/ic_launcher_round.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/icone_fond_rond.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/image.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/information_outline.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/key_variant.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/line.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/line_drawable.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/select_list.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/selector_toggle_publique.xml" value="0.1" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/show.xml" value="0.1255" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/sort.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/thumb.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/thumb_drawable.xml" value="0.13" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/toggle_publique_off.xml" value="0.128" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/toggle_publique_on.xml" value="0.1255" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/drawable/voir_public.xml" value="0.1255" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/activity_fullscreen.xml" value="0.32864583333333336" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/element_liste.xml" value="0.19895833333333332" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/element_liste_entete.xml" value="0.2989583333333333" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/fragment_gallerie.xml" value="0.3828125" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/fragment_image_view.xml" value="0.3229166666666667" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/fragment_video_view.xml" value="0.3421875" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/image_infos.xml" value="0.21822916666666667" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/modif_mot_de_passe.xml" value="0.19895833333333332" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/option_tri.xml" value="0.3828125" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/layout/saisie_mdp.xml" value="0.19895833333333332" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/menu/menu_gallerie.xml" value="0.3828125" />
+        <entry key="..\:/Donnees/lucien/Developpement/Android/PhotosPrivees/app/src/main/res/menu/menu_main.xml" value="0.228125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<resources>
+    <declare-styleable name="SubsamplingScaleImageView">
+        <attr name="SSIWsrc" format="reference"/>
+        <attr name="SSIWassetName" format="string"/>
+        <attr name="SSIWpanEnabled" format="boolean"/>
+        <attr name="SSIWzoomEnabled" format="boolean"/>
+        <attr name="SSIWquickScaleEnabled" format="boolean"/>
+        <attr name="SSIWtileBackgroundColor" format="color"/>
+    </declare-styleable>
+</resources>

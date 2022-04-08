@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_action_rendre_prive"
+        android:title="Item" />
+    <item
+        android:id="@+id/menu_action_rendre_publique"
+        android:title="Item" />
+</menu>
